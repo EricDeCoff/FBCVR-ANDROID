@@ -15,37 +15,14 @@ First Baptist Church of Villa Rica
 <gap:plugin name="de.appplant.cordova.plugin.email-composer" /> <-- email-composer plugin -->         
 <-- ICONS --> 
 <icon src="icon.png" /> <-- default 512 pixels --> 
-<-- iOS6 --> 
-<icon src="Resources/iphone/appicon.png" gap:platform="ios" width="57" height="57" /> 
-<icon src="Resources/iphone/appicon-72.png" gap:platform="ios" width="72" height="72" /> 
-<icon src="Resources/iphone/appicon@2x.png" gap:platform="ios" width="114" height="114" /> 
-<icon src="Resources/iphone/appicon-72@2x.png" gap:platform="ios" width="144" height="144" />     
-<-- iOS7 --> 
-<icon src="Resources/iphone/appicon-76.png" gap:platform="ios" width="76" height="76" /> 
-<icon src="Resources/iphone/appicon-60@2x.png" gap:platform="ios" width="120" height="120" /> 
-<icon src="Resources/iphone/appicon-76@2x.png" gap:platform="ios" width="152" height="152" /> 
 <icon src="platform/android/res/drawable-ldpi/appicon.png" gap:platform="android" gap:density="ldpi" /> 
 <icon src="platform/android/res/drawable-mdpi/appicon.png" gap:platform="android" gap:density="mdpi" />  
 <icon src="platform/android/res/drawable-hdpi/appicon.png" gap:platform="android" gap:density="hdpi" /> 
 <icon src="platform/android/res/drawable-xhdpi/appicon.png" gap:platform="android" gap:density="xhdpi" /> 
 <icon src="platform/android/res/drawable-xxhdpi/appicon.png" gap:platform="android" gap:density="xxhdpi" />  
 <icon src="platform/android/res/drawable-xxxhdpi/appicon.png" gap:platform="android" gap:density="xxxhdpi" /> 
-<icon src="img/icons/winphone/icon.png" gap:platform="winphone" /> 
-<icon src="img/icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background" /> 
 <-- SPLASH SCREENS --> 
 <gap:splash src="splash.png" /> 
-<-- non retina --> 
-<gap:splash src="Resources/iphone/Default.png" gap:platform="ios" width="320" height="480" /> 
-<-- retina 4 --> 
-<gap:splash src="Resources/iphone/Default@2x.png" gap:platform="ios" width="640" height="960" /> 
-<-- retina 5+ --> 
-<gap:splash src="Resources/iphone/Default-568h@2x.png" gap:platform="ios" width="640" height="1136" /> 
-<-- iPad non retina -->     
-<gap:splash src="Resources/iphone/Default-Landscape.png" gap:platform="ios" width="1024" height="768" /> 
-<gap:splash src="Resources/iphone/Default-Portrait.png" gap:platform="ios" width="768" height="1024" /> 
-<-- iPad Retina --> 
-<gap:splash src="Resources/iphone/Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1496" /> 
-<gap:splash src="Resources/iphone/Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2008" /> 
 <-- android splash -->     
 <-- 200x320 -->         
 <gap:splash src="Resources/android/images/res-long-port-ldpi/default.png" gap:platform="android" gap:density="ldpi" />  
@@ -56,19 +33,13 @@ First Baptist Church of Villa Rica
 <-- 720x1280 -->         
 <gap:splash src="Resources/android/images/res-long-port-xhdpi/default.png" gap:platform="android" gap:density="xhdpi" />  
 <-- Windows Phone 7 480x800 --> 
-<gap:splash src="img/splash/winphone/splash.jpg" gap:platform="winphone" />  
 <-- PLATFORM SELECTION --> 
-<gap:platform name="ios" /> 
 <gap:platform name="android" /> 
-<gap:platform name="winphone" /> 
 <-- GENERAL PREFERENCES --> 
 <preference name="phonegap-version" value="3.5.0" /> 
 <preference name="orientation" value="default" /> 
-<preference name="fullscreen" value="true" /> <-- remove the upper bar on iOS and Android --> 
-<-- iOS PREFERENCES --> 
 <preference name="target-device" value="universal" /> 
 <preference name="prerendered-icon" value="true" /> 
-<preference name="ios-statusbarstyle" value="black-opaque" /> 
 <preference name="detect-data-types" value="false" /> 
 <preference name="exit-on-suspend" value="false" /> 
 <preference name="webviewbounce" value="false" /> 
