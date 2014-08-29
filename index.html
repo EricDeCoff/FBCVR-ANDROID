@@ -1,0 +1,45 @@
+<!DOCTYPE html><!--HTML5 doctype-->
+<html>
+<head>
+	<title>FBCVR-RequireJS</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+	<!--
+	<style type="text/css">
+		/* Prevent copy paste for all elements except text fields */
+		*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+		input, textarea  { -webkit-user-select:text; }
+		body { background-color:white; color:black }
+	</style>
+	-->
+	
+    <title>FBCVR - First Baptist Church of Villa Rica</title>     
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+      
+    <!--Font-Awesome -->
+    <link rel="stylesheet" href="./fa/css/font-awesome.css">
+      
+    <!-- Custom styles for this template -->
+    <link href="./css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="./css/navbar-phone.css" rel="stylesheet">            
+    <link href="./css/table.css" rel="stylesheet">            
+    <!-- Great Vibes -->
+    <link href="./css/screen.css" rel="stylesheet">                
+    
+</head>
+<body>
+    <div class="container">
+          <div id="home" data-page='home'></div>
+          <div id="about" data-page='about' style="display: none"></div>   
+          <div id="share" data-page='share' style="display: none"></div>    
+          <div id="staff" data-page='staff' style="display: none"></div>                
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="device.js"></script>
+    <script type="text/javascript" src="inappbrowser.js"></script>
+    <script type="text/javascript" data-main="js/config" src="js/libs/require.js"></script>    
+</body>
+</html>
