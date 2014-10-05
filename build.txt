@@ -41,6 +41,7 @@ js/libs/jquery-2.1.1.min.js
 js/libs/bootstrap.min.js
 js/libs/underscore.min.js
 js/libs/fastclick.js
+js/menuDefaults.js
 js/defaults.js
 js/utils/pages.js
 js/utils/divExists.js
@@ -67,9 +68,11 @@ js/utils/salvation.js
 js/utils/home.js
 js/utils/ajaxMission.js
 js/utils/ajaxDiscovery.js
+js/utils/fix.js
 js/utils/ajaxDevelopment.js
 js/utils/about.js
 js/utils/ajaxStaff.js
 js/utils/staff.js
 js/utils/share.js
+js/utils/faith.js
 js/app.js
