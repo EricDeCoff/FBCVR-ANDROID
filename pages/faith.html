@@ -3,23 +3,35 @@
     .faith-title{
         font-family: cursive;
         font-weight: bolder;
+        font-size: 3em;
     }
     .faith-acronym{
+        font-size: 1.25em;
     }
     .indent-40{
+        font-size: 1.1em;
         margin-left: 40px;
     }
     .hyperSpan{
-        font-size: 1.5em;
+        font-size: 1.25em;
+        font-weight: bold;
         color: #428bca;
         width: 100%;
     }
     em {
         color: red;
     }
+    .sm-br{
+        display: block;
+    }
 
 @media screen and (min-width: 768px) and (max-width: 9999px){
+    .sm-br {
+        display: none;
+    }
     .faith-title{
+        font-family: cursive;
+        font-weight: bolder;
         font-size: 6em;
     }
     .faith-acronym{
@@ -31,6 +43,11 @@
     .indent-40{
         font-size: 2em;
     }
+    .hyperSpan{
+        font-size: 1.5em;
+        color: #428bca;
+        width: 100%;
+    }
 }
 </style>
 <center><span class="faith-title"><i>F.A.I.T.H.</i></span></center>
@@ -41,15 +58,17 @@
     <br>
     <em>In Him [Jesus], we have redemption through His blood, the forgiveness of sins.</em>&nbsp;
     <br>
+    <!--
     <a id="forgiveness" target="_blank" rel='prefetch' 
        href="http://www.biblegateway.com/bible?language=en&version=NLT&passage=ephesians+1:4-8">
-        <button class="hyperSpan">
-            Default<br>Hyperlink<br>Ephesians<br>1:4-8
-        </button>
+        <div class="btn btn-default active hyperSpan">
+            Default<br class="sm-br"> Hyperlink<br class="sm-br"> Ephesians<br class="sm-br"> 1:4-8
+        </div>
     </a>
+    -->
     <a id="openForgiveness">
-        <button class="hyperSpan">
-            Latency<br/>Workaround</br/>Ephesians<br>1:4-8      `     
+        <button class="btn btn-default active hyperSpan">
+            Ephesians<br class="sm-br"> 1:4-8   
         </button>
     </a>
 </p>
@@ -62,8 +81,8 @@
     <em>For God so loved the world that He gave His only begotten Son, that whosoever believes in Him should not perish but have everlasting life.</em> 
     <br>
     <a id="available">
-        <button class="hyperSpan">
-            John<br>3:16
+        <button class="btn btn-default active hyperSpan">
+            John<br class="sm-br"> 3:16
         </button>
     </a>
     ...<strong>but not automatic.</strong>
@@ -71,8 +90,8 @@
     <em>Not everyone who says to Me, &quot;Lord, Lord,&quot; shall enter the kingdom of heaven.</em>
     <br>
     <a id="notEveryone">
-        <button class="hyperSpan">
-            Matthew<br>7:21-23
+        <button class="btn btn-default active hyperSpan">
+            Matthew<br class="sm-br"> 7:21-23
         </button>
     </a>
 </p>
@@ -86,8 +105,8 @@
     <em>For God so loved the world that He gave His only begotten Son, that whosoever believes in Him should not perish but have everlasting life.</em> 
     <br>    
     <a id="godsLove">
-        <button class="hyperSpan">
-            John<br>3:16
+        <button class="btn btn-default active hyperSpan">
+            John<br class="sm-br"> 3:16
         </button>
     </a>
     </li>
@@ -96,8 +115,8 @@
     <em>&quot;For judgment is without mercy.&quot;</em>
     <br>
     <a id="godsMercy">
-        <button class="hyperSpan">
-            James<br>2:13
+        <button class="btn btn-default active hyperSpan">
+            James<br class="sm-br"> 2:13
         </button>
     </a>
     </li>
@@ -106,8 +125,8 @@
     <em>&quot;For all have sinned and fall short of the glory of God.&quot;</em>
     <br>
     <a id="manIsSinful">
-        <button class="hyperSpan">
-            Romans<br>3:22-26
+        <button class="btn btn-default active hyperSpan">
+            Romans<br class="sm-br"> 3:22-26
         </button>
     </a>
     </li>
@@ -134,8 +153,8 @@
     <em>&quot;But unless you repent you will all likewise perish.&quot;</em>
     <br>
     <a id="turnFromSin">
-        <button class="hyperSpan">
-            Luke<br>13:1-3
+        <button class="btn btn-default active hyperSpan">
+            Luke<br class="sm-br"> 13:1-3
         </button>
     </a>
     </li>
@@ -145,15 +164,15 @@
         <em>&quot;Christ died for our sins according to the Scriptures; and that he was buried, and that He rose again the third day according to the Scriptures.&quot;</em>
         <br>
         <a id='christDied'>
-            <button class="hyperSpan">
-                1 Corinthians<br>15:3&ndash;4
+            <button class="btn btn-default active hyperSpan">
+                1 Corinthians<br class="sm-br"> 15:3-4
             </button>
         </a>
         <em>&quot;If you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead, you will be saved.&quot;</em> 
         <br>
         <a id='believeChristDiedForUs'>
-            <button class="hyperSpan">
-                Romans<br>10:9-10
+            <button class="btn btn-default active hyperSpan">
+                Romans<br class="sm-br"> 10:9-10
             </button>
         </a>
     </li>
@@ -166,8 +185,8 @@
         <em>&quot;I have come that they may have life, and that they may have it more abundantly.&quot;</em>
         <br>
         <a id='haveLife'>
-            <button class="hyperSpan">
-                John<br>10:10
+            <button class="btn btn-default active hyperSpan">
+                John<br class="sm-br"> 10:10
             </button>
         </a>
     </li>
@@ -176,8 +195,8 @@
         <em>&quot;And if I&nbsp;go and prepare a place for you, I will come again and receive you to Myself; that where I&nbsp;am, there you may be also.&quot;</em>
         <br>    
         <a id='hereAfter'>
-            <button class="hyperSpan">
-                John<br>14:3
+            <button class="btn btn-default active hyperSpan">
+                John<br class="sm-br">14:3
             </button>
         </a>
     </li>
@@ -189,8 +208,8 @@
 -->
         <br>
         <a id='saved'>
-            <button class="hyperSpan">
-                Romans<br>10:9
+            <button class="btn btn-default active hyperSpan">
+                Romans<br class="sm-br"> 10:9
             </button>
         </a>
     </li>
