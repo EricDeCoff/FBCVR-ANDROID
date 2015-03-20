@@ -42,6 +42,16 @@
 .navbar-focus:focus{
     background-color: #ddd;
 }
+.navbar-title{
+    position: relative;
+    top: -8px;
+    left: -5px;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 1;
+}
 .table>tbody>tr>td{
     vertical-align: middle;
 }
@@ -103,16 +113,17 @@
 .btn-rsvp-plus, 
 .btn-rsvp-minus,
 .rsvp-input{
-    height: 62px;
-    width: 62px;
+    height: 63px;
+    width: 63px;
     text-align: center;
     font-weight: bolder;
 }
 .rsvp-input{
-    font-size: 46px;
+    font-size: 30px;
 }
 .rsvp-total{
     width: 64px;
+    font-size: 20px;
     text-align: right;
     font-weight: bolder;
 }
@@ -147,8 +158,8 @@
     .btn-rsvp-plus, 
     .btn-rsvp-minus,
     .rsvp-input{
-        height: 162px;
-        width: 162px;
+        height: 163px;
+        width: 163px;
         text-align: center;
         font-weight: bolder;
     }
@@ -159,8 +170,8 @@
         font-size: 64px;
     }
     .rsvp-total{
-        width: 162px;
-        font-size: 64px;
+        width: 161px;
+        font-size: 60px;
         text-align: right;
         font-weight: bolder;
     }
@@ -200,6 +211,7 @@
 */
 body{
     padding-top: 75px;
+    font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 h1 {
     padding-top: 0px;
@@ -215,7 +227,7 @@ h1 {
     font-weight: 800;
     font-size: 48px;
     line-height: 0.8;
-    font-family: "Great Vibes", "Helvetica Neue", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 .lead-min{
     font-style: normal;
@@ -223,7 +235,7 @@ h1 {
     font-weight: 800;
     font-size: 20px;
     line-height: 1;
-    font-family: "Great Vibes", "Helvetica Neue", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 .half-height-line{
     line-height: 0.5;

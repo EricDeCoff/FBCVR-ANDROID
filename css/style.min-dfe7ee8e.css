@@ -1307,23 +1307,22 @@ td.visible-print,th.visible-print{display:table-cell!important}
 .navbar-phone:focus,.navbar-phone:hover{background-color:#ddd}
 .navbar-close{color:red;border-color:#ddd}
 .navbar-close:hover,.navbar-focus:focus{background-color:#ddd}
-.navbar-title{position:relative;top:-8px;left:-5px;font-style:normal;font-variant:normal;font-size:18px;font-weight:bolder;line-height:1}
 .table>tbody>tr>td{vertical-align:middle}
 .borderless tbody tr td,.borderless thead tr th{border:none}
 .icon-locked{position:relative;float:left;padding:9px 10px;margin-top:8px;margin-left:15px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px;z-index:999;color:red;border-color:#ddd}
 .btn-rsvp{position:relative;float:left;padding:9px 10px;margin-top:8px;margin-left:15px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px;z-index:999;color:green;border-color:#ddd}
-.btn-rsvp-minus,.btn-rsvp-plus,.rsvp-input{height:63px;width:63px;text-align:center;font-weight:bolder}
-.rsvp-input{font-size:30px}
-.rsvp-total{width:64px;font-size:20px;text-align:right;font-weight:bolder}
+.btn-rsvp-minus,.btn-rsvp-plus,.rsvp-input{height:62px;width:62px;text-align:center;font-weight:bolder}
+.rsvp-input{font-size:46px}
+.rsvp-total{width:64px;text-align:right;font-weight:bolder}
 #btnRsvpSubmit{color:#fff;background-color:green}
 #btnRsvpCancel{color:#fff;background-color:red;position:relative;left:0}
 @media screen and (min-width:768px) and (max-width:9999px){.rsvp-h1{font-size:3em;-webkit-margin-before:0;-webkit-margin-after:0;font-weight:bolder}
 .rsvp-menu{font-size:3em;margin-top:20px;font-weight:bolder}
 .rsvp-cost-label{font-size:2em}
-.btn-rsvp-minus,.btn-rsvp-plus,.rsvp-input{height:163px;width:163px;text-align:center;font-weight:bolder}
+.btn-rsvp-minus,.btn-rsvp-plus,.rsvp-input{height:162px;width:162px;text-align:center;font-weight:bolder}
 .rsvp-input{font-size:132px}
 .rsvp-total-label{font-size:64px}
-.rsvp-total{width:161px;font-size:60px;text-align:right;font-weight:bolder}
+.rsvp-total{width:162px;font-size:64px;text-align:right;font-weight:bolder}
 #btnRsvpSubmit{font-size:64px;color:#fff;background-color:green}
 #btnRsvpCancel{font-size:64px;color:#fff;background-color:red}}
 .rsvp-h1{-webkit-margin-before:0;-webkit-margin-after:0;font-weight:bolder}
