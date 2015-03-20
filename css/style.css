@@ -110,8 +110,6 @@
     font-weight: bolder
 }
 
-.btn-rsvp-plus, 
-.btn-rsvp-minus,
 .rsvp-input{
     height: 63px;
     width: 63px;
@@ -122,7 +120,8 @@
     font-size: 30px;
 }
 .rsvp-total{
-    width: 64px;
+    width: 69px;
+    padding-right: 5px;
     font-size: 20px;
     text-align: right;
     font-weight: bolder;
@@ -170,8 +169,9 @@
         font-size: 64px;
     }
     .rsvp-total{
-        width: 161px;
+        width: 169px;
         font-size: 60px;
+        padding-right: 5px;
         text-align: right;
         font-weight: bolder;
     }
