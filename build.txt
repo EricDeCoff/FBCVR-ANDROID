@@ -82,4 +82,5 @@ js/utils/staff.js
 js/utils/share.js
 js/defaultsFaith.js
 js/utils/faith.js
+js/utils/pushHandler.js
 js/app.js
