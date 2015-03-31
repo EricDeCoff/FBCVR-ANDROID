@@ -1,0 +1,1 @@
+var Camera=require("./Camera"),CameraPopoverOptions=function(r,e,i,o,a){this.x=r||0,this.y=e||32,this.width=i||320,this.height=o||480,this.arrowDir=a||Camera.PopoverArrowDirection.ARROW_ANY};module.exports=CameraPopoverOptions;

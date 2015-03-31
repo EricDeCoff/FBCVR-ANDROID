@@ -1,0 +1,1 @@
+var ContactField=function(t,i,n){this.id=null,this.type=t&&t.toString()||null,this.value=i&&i.toString()||null,this.pref="undefined"!=typeof n?n:!1};module.exports=ContactField;

@@ -1,0 +1,1 @@
+module.exports=function(o,t){console.error("setMetadata not supported on BB10",arguments),"function"==typeof t&&t()};

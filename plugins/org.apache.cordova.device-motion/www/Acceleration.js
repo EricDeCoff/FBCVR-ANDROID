@@ -1,0 +1,1 @@
+var Acceleration=function(t,e,i,s){this.x=t,this.y=e,this.z=i,this.timestamp=s||(new Date).getTime()};module.exports=Acceleration;

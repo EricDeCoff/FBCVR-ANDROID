@@ -1,0 +1,1 @@
+module.exports={getHeading:function(e,n,a,i){var t=new PluginResult(a,i),o=function(e){var n={magneticHeading:e.alpha,trueHeading:360-e.alpha,headingAccuracy:360-2*e.alpha,timestamp:(new Date).getTime};window.removeEventListener("deviceorientation",o),t.callbackOk(n,!1)};window.addEventListener("deviceorientation",o),t.noResult(!0)}};

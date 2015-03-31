@@ -1,0 +1,1 @@
+var FileUploadOptions=function(l,e,i,t,n,s){if(this.fileKey=l||null,this.fileName=e||null,this.mimeType=i||null,this.headers=n||null,this.httpMethod=s||null,t&&"string"!=typeof t){var o=[];for(var p in t)o.push(p+"="+t[p]);this.params=encodeURIComponent(o.join("&"))}else this.params=t||null};module.exports=FileUploadOptions;

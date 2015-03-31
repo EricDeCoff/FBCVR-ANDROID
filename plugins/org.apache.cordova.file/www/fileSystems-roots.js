@@ -1,0 +1,1 @@
+var fsMap=null,FileSystem=require("./FileSystem"),exec=require("cordova/exec");require("./fileSystems").getFs=function(e,s){function l(l){fsMap={};for(var a=0;a<l.length;++a){var i=l[a],r=new FileSystem(i.filesystemName,i);fsMap[r.name]=r}s(fsMap[e])}fsMap?s(fsMap[e]):exec(l,null,"File","requestAllFileSystems",[])};

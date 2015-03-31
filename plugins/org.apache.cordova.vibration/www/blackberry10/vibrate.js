@@ -1,0 +1,1 @@
+var vibrate=function(a){navigator.vibrate(a)};module.exports=vibrate;

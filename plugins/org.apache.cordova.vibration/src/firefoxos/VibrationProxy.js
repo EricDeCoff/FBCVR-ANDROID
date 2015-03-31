@@ -1,0 +1,1 @@
+var cordova=require("cordova");module.exports={vibrate:function(o,r,i){navigator.notification.vibrate?navigator.vibrate(i):console.log("cordova/plugin/firefoxos/vibration, vibrate API does not exist")}},require("cordova/exec/proxy").add("Vibration",module.exports);

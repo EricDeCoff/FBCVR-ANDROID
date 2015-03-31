@@ -1,0 +1,1 @@
+var Coordinates=require("./Coordinates"),Position=function(t,i){this.coords=t?new Coordinates(t.latitude,t.longitude,t.altitude,t.accuracy,t.heading,t.velocity,t.altitudeAccuracy):new Coordinates,this.timestamp=void 0!==i?i:new Date};module.exports=Position;

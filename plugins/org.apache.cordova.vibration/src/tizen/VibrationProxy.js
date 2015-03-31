@@ -1,0 +1,1 @@
+module.exports={vibrate:function(o){navigator.vibrate&&navigator.vibrate(o)}},require("cordova/tizen/commandProxy").add("Vibration",module.exports);

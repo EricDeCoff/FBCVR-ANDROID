@@ -1,0 +1,1 @@
+module.exports=function(e,s,t){this.bytesSent=e,this.responseCode=s,this.response=t};

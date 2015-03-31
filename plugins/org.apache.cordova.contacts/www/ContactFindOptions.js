@@ -1,0 +1,1 @@
+var ContactFindOptions=function(t,i,e){this.filter=t||"",this.multiple="undefined"!=typeof i?i:!1,this.desiredFields="undefined"!=typeof e?e:[]};module.exports=ContactFindOptions;

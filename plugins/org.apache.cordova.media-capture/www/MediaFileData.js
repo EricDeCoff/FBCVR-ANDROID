@@ -1,0 +1,1 @@
+var MediaFileData=function(i,t,a,e,h){this.codecs=i||null,this.bitrate=t||0,this.height=a||0,this.width=e||0,this.duration=h||0};module.exports=MediaFileData;

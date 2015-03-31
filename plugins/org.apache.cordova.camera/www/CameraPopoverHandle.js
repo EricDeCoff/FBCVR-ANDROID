@@ -1,0 +1,1 @@
+var exec=require("cordova/exec"),CameraPopoverHandle=function(){this.setPosition=function(){console.log("CameraPopoverHandle.setPosition is only supported on iOS.")}};module.exports=CameraPopoverHandle;

@@ -1,0 +1,1 @@
+var info=require("org.apache.cordova.file.bb10FileSystemInfo");module.exports=function(e){e([{filesystemName:"persistent",name:"persistent",fullPath:"/",nativeURL:info.persistentPath+"/"},{filesystemName:"temporary",name:"temporary",fullPath:"/",nativeURL:info.temporaryPath+"/"},{filesystemName:"root",name:"root",fullPath:"/",nativeURL:"file:///"}])};

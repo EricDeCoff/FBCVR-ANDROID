@@ -1,0 +1,1 @@
+module.exports.getFs=function(e,l){l(null)};

@@ -1,0 +1,1 @@
+var CaptureVideoOptions=function(){this.limit=1,this.duration=0};module.exports=CaptureVideoOptions;

@@ -1,0 +1,1 @@
+var GlobalizationError=function(o,r){this.code=o||null,this.message=r||""};GlobalizationError.UNKNOWN_ERROR=0,GlobalizationError.FORMATTING_ERROR=1,GlobalizationError.PARSING_ERROR=2,GlobalizationError.PATTERN_ERROR=3,module.exports=GlobalizationError;

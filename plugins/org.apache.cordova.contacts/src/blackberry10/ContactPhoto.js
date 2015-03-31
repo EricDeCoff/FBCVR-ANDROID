@@ -1,0 +1,1 @@
+var ContactPhoto=function(t,i){this.originalFilePath=t||"",this.pref=i||!1,this.largeFilePath="",this.smallFilePath=""};module.exports=ContactPhoto;

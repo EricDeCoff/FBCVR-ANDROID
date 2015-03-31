@@ -1,0 +1,1 @@
+module.exports=function(e){var o,n=0,a=function(){o=new Audio("local:///chrome/plugin/org.apache.cordova.dialogs/notification-beep.wav"),o.addEventListener("ended",i),o.play()},i=function(){--n>0?a():delete o};n+=e||1,n>0&&a()};

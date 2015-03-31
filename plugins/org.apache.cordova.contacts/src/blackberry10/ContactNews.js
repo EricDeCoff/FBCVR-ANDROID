@@ -1,0 +1,1 @@
+var ContactNews=function(t){this.title=t.title||"",this.body=t.body||"",this.articleSource=t.articleSource||"",this.companies=t.companies||[],this.publishedAt=new Date(parseInt(t.publishedAt,10))||null,this.uri=t.uri||"",this.type=t.type||""};module.exports=ContactNews;

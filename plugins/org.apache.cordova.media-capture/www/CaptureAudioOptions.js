@@ -1,0 +1,1 @@
+var CaptureAudioOptions=function(){this.limit=1,this.duration=0};module.exports=CaptureAudioOptions;

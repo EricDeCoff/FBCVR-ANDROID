@@ -1,0 +1,1 @@
+var CaptureError=function(r){this.code=r||null};CaptureError.CAPTURE_INTERNAL_ERR=0,CaptureError.CAPTURE_APPLICATION_BUSY=1,CaptureError.CAPTURE_INVALID_ARGUMENT=2,CaptureError.CAPTURE_NO_MEDIA_FILES=3,CaptureError.CAPTURE_NOT_SUPPORTED=20,module.exports=CaptureError;

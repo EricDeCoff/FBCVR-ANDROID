@@ -1,0 +1,1 @@
+var CompassHeading=function(e,i,a,t){this.magneticHeading=e,this.trueHeading=i,this.headingAccuracy=a,this.timestamp=t||(new Date).getTime()};module.exports=CompassHeading;

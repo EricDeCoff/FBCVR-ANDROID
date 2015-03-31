@@ -1,0 +1,1 @@
+var DirectoryEntry=require("./DirectoryEntry"),FileSystem=function(t,e){this.name=t,this.root=e?new DirectoryEntry(e.name,e.fullPath,this,e.nativeURL):new DirectoryEntry(this.name,"/",this)};FileSystem.prototype.__format__=function(t){return t},FileSystem.prototype.toJSON=function(){return"<FileSystem: "+this.name+">"},module.exports=FileSystem;

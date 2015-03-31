@@ -1,0 +1,1 @@
+var exec=require("cordova/exec"),ContactError=require("./ContactError");module.exports={display:function(r,t){if(null===this.id){if("function"==typeof r){var o=new ContactError(ContactError.UNKNOWN_ERROR);r(o)}}else exec(null,r,"Contacts","displayContact",[this.id,t])}};

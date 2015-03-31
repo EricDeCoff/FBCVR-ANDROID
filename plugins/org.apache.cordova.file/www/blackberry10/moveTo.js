@@ -1,0 +1,1 @@
+var copy=cordova.require("org.apache.cordova.file.copyToProxy");module.exports=function(o,r,c){copy(o,r,c,!0)};

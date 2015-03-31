@@ -1,0 +1,1 @@
+var CaptureImageOptions=function(){this.limit=1};module.exports=CaptureImageOptions;

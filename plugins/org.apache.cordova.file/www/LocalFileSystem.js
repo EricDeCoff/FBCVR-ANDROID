@@ -1,0 +1,1 @@
+exports.TEMPORARY=0,exports.PERSISTENT=1;

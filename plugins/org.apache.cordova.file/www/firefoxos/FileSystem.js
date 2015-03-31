@@ -1,0 +1,1 @@
+FILESYSTEM_PREFIX="file:///",module.exports={__format__:function(e){return FILESYSTEM_PREFIX+this.name+("/"===e[0]?"":"/")+encodeURI(e)}};

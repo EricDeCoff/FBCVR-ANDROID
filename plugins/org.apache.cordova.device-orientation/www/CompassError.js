@@ -1,0 +1,1 @@
+var CompassError=function(r){this.code=void 0!==r?r:null};CompassError.COMPASS_INTERNAL_ERR=0,CompassError.COMPASS_NOT_SUPPORTED=20,module.exports=CompassError;

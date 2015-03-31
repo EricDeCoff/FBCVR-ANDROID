@@ -1,0 +1,1 @@
+var resolve=cordova.require("org.apache.cordova.file.resolveLocalFileSystemURIProxy");module.exports=function(o,e,t){var n=t[0],r=function(e){"function"==typeof o&&o(e)},c=function(o){"function"==typeof e&&e(o.code?o.code:o)};resolve(function(o){o.nativeEntry.getMetadata(r,c)},c,[n])};

@@ -1,0 +1,1 @@
+FILESYSTEM_PROTOCOL="cdvfile",module.exports={__format__:function(e){var o=("/"+this.name+("/"===e[0]?"":"/")+encodeURI(e)).replace("//","/");return FILESYSTEM_PROTOCOL+"://localhost"+o}};

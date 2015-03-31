@@ -1,0 +1,1 @@
+var info=require("org.apache.cordova.file.bb10FileSystemInfo");module.exports={__format__:function(e){switch(this.name){case"temporary":path=info.temporaryPath+e;break;case"persistent":path=info.persistentPath+e;break;case"root":path="file://"+e}return window.encodeURI(path)}};

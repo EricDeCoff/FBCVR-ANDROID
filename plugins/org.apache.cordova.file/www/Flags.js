@@ -1,0 +1,1 @@
+function Flags(e,s){this.create=e||!1,this.exclusive=s||!1}module.exports=Flags;

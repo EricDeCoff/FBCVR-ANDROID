@@ -1,0 +1,1 @@
+var ContactOrganization=function(t,n,i,l,e){this.id=null,this.pref="undefined"!=typeof t?t:!1,this.type=n||null,this.name=i||null,this.department=l||null,this.title=e||null};module.exports=ContactOrganization;

@@ -1,0 +1,1 @@
+var Coordinates=function(i,t,d,e,s,l,u){this.latitude=i,this.longitude=t,this.accuracy=e,this.altitude=void 0!==d?d:null,this.heading=void 0!==s?s:null,this.speed=void 0!==l?l:null,(0===this.speed||null===this.speed)&&(this.heading=0/0),this.altitudeAccuracy=void 0!==u?u:null};module.exports=Coordinates;

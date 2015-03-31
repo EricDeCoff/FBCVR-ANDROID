@@ -1,0 +1,1 @@
+var PositionError=function(o,r){this.code=o||null,this.message=r||""};PositionError.PERMISSION_DENIED=1,PositionError.POSITION_UNAVAILABLE=2,PositionError.TIMEOUT=3,module.exports=PositionError;

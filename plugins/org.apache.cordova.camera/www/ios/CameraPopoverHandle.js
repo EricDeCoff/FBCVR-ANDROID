@@ -1,0 +1,1 @@
+var exec=require("cordova/exec"),CameraPopoverHandle=function(){this.setPosition=function(e){var o=[e];exec(null,null,"Camera","repositionPopover",o)}};module.exports=CameraPopoverHandle;

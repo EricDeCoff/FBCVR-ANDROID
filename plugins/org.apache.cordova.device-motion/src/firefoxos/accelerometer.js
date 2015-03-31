@@ -1,0 +1,1 @@
+function listener(e,t){var r=t.accelerationIncludingGravity;r.timestamp=(new Date).getTime(),e(r)}var Accelerometer={start:function(e){return window.addEventListener("devicemotion",function(t){listener(e,t)},!1)},stop:function(){window.removeEventListener("devicemotion",listener,!1)}};module.exports=Accelerometer,require("cordova/exec/proxy").add("Accelerometer",Accelerometer);

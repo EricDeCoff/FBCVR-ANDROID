@@ -1,0 +1,1 @@
+function ConfigurationData(){this.type=null,this.height=0,this.width=0}module.exports=ConfigurationData;

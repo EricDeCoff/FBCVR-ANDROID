@@ -1,0 +1,1 @@
+var ContactActivity=function(t){this.direction=t.direction||null,this.description=t.description||"",this.mimeType=t.mimeType||"",this.timestamp=new Date(parseInt(t.timestamp,10))||null};Object.defineProperty(ContactActivity,"INCOMING",{value:!0}),Object.defineProperty(ContactActivity,"OUTGOING",{value:!1}),module.exports=ContactActivity;
