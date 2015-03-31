@@ -39,6 +39,14 @@ fa/css/font-awesome.min.css
 ----------------
 fa/css/font-awesome.min.css
 
+plugins/org.apache.cordova.dialogs/www/firefoxos/notification.css
+----------------
+plugins/org.apache.cordova.dialogs/www/firefoxos/notification.css
+
+plugins/org.apache.cordova.inappbrowser/tests/resources/inject.css
+----------------
+plugins/org.apache.cordova.inappbrowser/tests/resources/inject.css
+
 js/app.js
 ----------------
 js/libs/jquery-2.1.1.min.js
@@ -82,5 +90,5 @@ js/utils/staff.js
 js/utils/share.js
 js/defaultsFaith.js
 js/utils/faith.js
-js/utils/pushHandler.js
+js/utils/pushWooshHandler.js
 js/app.js
